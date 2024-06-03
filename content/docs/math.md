@@ -6,7 +6,7 @@ title: Math examples
 ---
 
 
-This is an inline \(a^*=x-b^*\) equation.
+This is an Inline \(a^*=x-b^*\) equation.
 
 These are block equations:
 
