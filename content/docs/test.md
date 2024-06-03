@@ -1,5 +1,5 @@
 +++
-title = 'Test'
+title = 'Intro to Inferential Statistics'
 date = 2024-06-02T21:13:40Z
 draft = false
 +++

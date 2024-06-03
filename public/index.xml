@@ -6,8 +6,25 @@
     <description>Recent content on Excreal</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jun 2024 03:49:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2024 04:15:50 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Questions</title>
+      <link>http://localhost:1313/docs/examples/</link>
+      <pubDate>Mon, 03 Jun 2024 04:15:50 +0000</pubDate>
+      <guid>http://localhost:1313/docs/examples/</guid>
+      <description>Question: A manufacturer claims that the mean lifespan of their product is 5000 hours. A sample of 50 products yielded a mean lifespan of 4900 hours with a standard deviation of 200 hours. At a significance level of 0.05, can we reject the manufacturer&amp;rsquo;s claim?
+Solution:
+Null Hypothesis (H0): μ = 5000 Alternative Hypothesis (H1): μ ≠ 5000 Standard error of the mean (SEM) = σ / √n = 200 / √50 ≈ 28.</description>
+    </item>
+    <item>
+      <title>Cheatsheat</title>
+      <link>http://localhost:1313/docs/cheatsheat/</link>
+      <pubDate>Mon, 03 Jun 2024 04:11:59 +0000</pubDate>
+      <guid>http://localhost:1313/docs/cheatsheat/</guid>
+      <description>What’s Included: Stats Cheatsheet The free cheat sheet covers key concepts and terminology for both descriptive and inferential statistics. This includes:
+Types of data (categorical and numerical) Type of frequency distributions Descriptive statistics such as the mean, median and mode Inferential statistics such as t-tests, chi-square and correlation Probability, effect size and significance levels In a nutshell, the stats cheatsheet is a great starting point for any student new to the often intimidating world of statistics and quantitative analysis.</description>
+    </item>
     <item>
       <title>Important Formulas Inferential Statistics</title>
       <link>http://localhost:1313/docs/importantformulas/</link>
@@ -26,7 +43,7 @@ A random variable is a function that maps outcomes of a random process to numeri
 A probability distribution provides the probabilities of all possible outcomes of a random variable.</description>
     </item>
     <item>
-      <title>Test</title>
+      <title>Intro to Inferential Statistics</title>
       <link>http://localhost:1313/docs/test/</link>
       <pubDate>Sun, 02 Jun 2024 21:13:40 +0000</pubDate>
       <guid>http://localhost:1313/docs/test/</guid>

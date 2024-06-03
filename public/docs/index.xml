@@ -6,15 +6,31 @@
     <description>Recent content in Docs on Excreal</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jun 2024 03:49:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2024 04:15:50 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Example Questions</title>
+      <link>http://localhost:1313/docs/examples/</link>
+      <pubDate>Mon, 03 Jun 2024 04:15:50 +0000</pubDate>
+      <guid>http://localhost:1313/docs/examples/</guid>
+      <description>What’s Included: Stats Cheatsheet The free cheat sheet covers key concepts and terminology for both descriptive and inferential statistics. This includes:
+Types of data (categorical and numerical) Type of frequency distributions Descriptive statistics such as the mean, median and mode Inferential statistics such as t-tests, chi-square and correlation Probability, effect size and significance levels In a nutshell, the stats cheatsheet is a great starting point for any student new to the often intimidating world of statistics and quantitative analysis.</description>
+    </item>
+    <item>
+      <title>Cheatsheat</title>
+      <link>http://localhost:1313/docs/cheatsheat/</link>
+      <pubDate>Mon, 03 Jun 2024 04:11:59 +0000</pubDate>
+      <guid>http://localhost:1313/docs/cheatsheat/</guid>
+      <description>What’s Included: Stats Cheatsheet The free cheat sheet covers key concepts and terminology for both descriptive and inferential statistics. This includes:
+Types of data (categorical and numerical) Type of frequency distributions Descriptive statistics such as the mean, median and mode Inferential statistics such as t-tests, chi-square and correlation Probability, effect size and significance levels In a nutshell, the stats cheatsheet is a great starting point for any student new to the often intimidating world of statistics and quantitative analysis.</description>
+    </item>
     <item>
       <title>Important Formulas Inferential Statistics</title>
       <link>http://localhost:1313/docs/importantformulas/</link>
       <pubDate>Mon, 03 Jun 2024 03:49:29 +0000</pubDate>
       <guid>http://localhost:1313/docs/importantformulas/</guid>
       <description>Important Formulas and Examples in Inferential Statistics Population Mean (μ) Formula:
-The population mean, denoted by μ, is the average of all values in a population. Formula: μ = ΣX / N, where ΣX represents the sum of all values in the population, and N is the population size. Example: Let&amp;rsquo;s say we have a population of exam scores: {85, 90, 92, 88, 95}. The population mean is calculated as: [ μ = \frac{{85 + 90 + 92 + 88 + 95}}{5} = \frac{450}{5} = 90 ]</description>
+The population mean, denoted by μ, is the average of all values in a population. Formula: μ = ΣX / N, where ΣX represents the sum of all values in the population, and N is the population size. Example: Let&amp;rsquo;s say we have a population of exam scores: {85, 90, 92, 88, 95}. The population mean is calculated as: μ = (85 + 90 + 92 + 88 + 95) / 5 = 90</description>
     </item>
     <item>
       <title>Probablitity Distributions</title>
@@ -26,7 +42,7 @@ A random variable is a function that maps outcomes of a random process to numeri
 A probability distribution provides the probabilities of all possible outcomes of a random variable.</description>
     </item>
     <item>
-      <title>Test</title>
+      <title>Intro to Inferential Statistics</title>
       <link>http://localhost:1313/docs/test/</link>
       <pubDate>Sun, 02 Jun 2024 21:13:40 +0000</pubDate>
       <guid>http://localhost:1313/docs/test/</guid>
