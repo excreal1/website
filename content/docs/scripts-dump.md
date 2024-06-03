@@ -1,7 +1,8 @@
 +++
-title = 'Mwitu'
+title = 'Scripts dump'
 date = 2024-06-03T08:29:14Z
 draft = false
+
 +++
 
 # My commands dump

@@ -6,8 +6,18 @@
     <description>Recent content in Docs on Excreal</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jun 2024 04:15:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2024 08:29:14 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Scripts dump</title>
+      <link>http://localhost:1313/docs/scripts-dump/</link>
+      <pubDate>Mon, 03 Jun 2024 08:29:14 +0000</pubDate>
+      <guid>http://localhost:1313/docs/scripts-dump/</guid>
+      <description>My commands dump Contents Scripts Run remote script using domain Auto Commit to Github Configurations Git Configuration Wifi 5g Fix Media Server Docker-Compose setup On Linux On Windows Scripts Collection of scripts
+Run remote script using domain automatically execute scripts from github in one line
+bash &amp;lt;(curl -sSL https://website-1lt.pages.dev/fastfetch) Auto commit This script automatically checks and commits changes to main branch on github in one command
+usage: commit.sh -m &amp;#34;Commit message&amp;#34; Code #!</description>
+    </item>
     <item>
       <title>Example Questions</title>
       <link>http://localhost:1313/docs/examples/</link>
