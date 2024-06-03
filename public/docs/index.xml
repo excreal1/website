@@ -49,5 +49,15 @@ A probability distribution provides the probabilities of all possible outcomes o
       <guid>http://localhost:1313/docs/test/</guid>
       <description>Inferential Statistics Start with: Probability Distributions: Probability distributions describe the likelihood of different outcomes in a random experiment. Common distributions include the normal distribution (bell-shaped curve), binomial distribution (for binary outcomes), and t-distribution (similar to the normal distribution but used for smaller sample sizes). Sampling Methods: Sampling methods involve selecting a subset of individuals or items from a larger population. Random sampling ensures each member of the population has an equal chance of being selected.</description>
     </item>
+    <item>
+      <title>Math examples</title>
+      <link>http://localhost:1313/docs/math/</link>
+      <pubDate>Wed, 24 Jan 2024 18:09:49 -0800</pubDate>
+      <guid>http://localhost:1313/docs/math/</guid>
+      <description>This is an inline \(a^*=x-b^*\) equation.
+These are block equations:
+\[a^*=x-b^*\] \[ a^*=x-b^* \] \[ a^*=x-b^* \] These are block equations using alternate delimiters:
+$$a^*=x-b^*$$ $$ a^*=x-b^* $$ $$ a^*=x-b^* $$ A \$5 bill saved is a \$5 bill earned.</description>
+    </item>
   </channel>
 </rss>

@@ -72,9 +72,13 @@ draft = false
 **Question:** A manufacturer claims that the mean lifespan of their product is 5000 hours. A sample of 50 products yielded a mean lifespan of 4900 hours with a standard deviation of 200 hours. At a significance level of 0.05, can we reject the manufacturer's claim?
 
 **Solution:** 
-- **Null Hypothesis (H0):** The manufacturer's claim is true; the mean lifespan of their product is 5000 hours (μ = 5000).
-- **Alternative Hypothesis (H1):** The manufacturer's claim is not true; the mean lifespan of their product is not 5000 hours (μ ≠ 5000).
-- We calculate the standard error of the mean (SEM), which measures the variability of sample means. It's calculated as the standard deviation of the sample divided by the square root of the sample size. In this case, SEM = 200 / √50 ≈ 28.28.
-- The Z-score is then calculated using the formula (sample mean - population mean) / SEM. This tells us how many standard deviations the sample mean is from the population mean. The Z-score here is approximately -3.54.
-- We then compare the Z-score to the critical Z-value for a significance level of 0.05 (two-tailed), which is approximately ±1.96. Since -3.54 is less than -1.96 (in absolute value), we reject the null hypothesis.
-- Rejecting the null hypothesis means there is sufficient evidence to conclude that the mean lifespan is not 5000 hours, as claimed by the manufacturer.
+- **Null Hypothesis (H0):** The manufacturer's claim is true; the mean lifespan of their product is 5000 hours (\(μ = 5000\)).
+- **Alternative Hypothesis (H1):** The manufacturer's claim is not true; the mean lifespan of their product is not 5000 hours (\(μ ≠ 5000\)).
+- Standard error of the mean (SEM): 
+  - \(SEM = \frac{σ}{\sqrt{n}} = \frac{200}{\sqrt{50}} \approx 28.28\)
+- Z-score: 
+  - \(Z = \frac{\bar{X} - μ}{SEM} = \frac{4900 - 5000}{28.28} \approx -3.54\)
+- Critical Z-value: 
+  - For a significance level of 0.05 (two-tailed), critical Z-value is approximately ±1.96.
+- Conclusion: 
+  - Since -3.54 is less than -1.96 (in absolute value), we reject the null hypothesis. There is sufficient evidence to conclude that the mean lifespan is not 5000 hours, as claimed by the manufacturer.

@@ -58,6 +58,17 @@ Null Hypothesis (H0): μ = 5000 Alternative Hypothesis (H1): μ ≠ 5000 Standar
 
     </style>
 </noscript>
+    
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    }
+  };
+</script>
+    
 </head>
 
 <body class="" id="top">
@@ -193,12 +204,28 @@ Null Hypothesis (H0): μ = 5000 Alternative Hypothesis (H1): μ ≠ 5000 Standar
 <p><strong>Question:</strong> A manufacturer claims that the mean lifespan of their product is 5000 hours. A sample of 50 products yielded a mean lifespan of 4900 hours with a standard deviation of 200 hours. At a significance level of 0.05, can we reject the manufacturer&rsquo;s claim?</p>
 <p><strong>Solution:</strong></p>
 <ul>
-<li><strong>Null Hypothesis (H0):</strong> The manufacturer&rsquo;s claim is true; the mean lifespan of their product is 5000 hours (μ = 5000).</li>
-<li><strong>Alternative Hypothesis (H1):</strong> The manufacturer&rsquo;s claim is not true; the mean lifespan of their product is not 5000 hours (μ ≠ 5000).</li>
-<li>We calculate the standard error of the mean (SEM), which measures the variability of sample means. It&rsquo;s calculated as the standard deviation of the sample divided by the square root of the sample size. In this case, SEM = 200 / √50 ≈ 28.28.</li>
-<li>The Z-score is then calculated using the formula (sample mean - population mean) / SEM. This tells us how many standard deviations the sample mean is from the population mean. The Z-score here is approximately -3.54.</li>
-<li>We then compare the Z-score to the critical Z-value for a significance level of 0.05 (two-tailed), which is approximately ±1.96. Since -3.54 is less than -1.96 (in absolute value), we reject the null hypothesis.</li>
-<li>Rejecting the null hypothesis means there is sufficient evidence to conclude that the mean lifespan is not 5000 hours, as claimed by the manufacturer.</li>
+<li><strong>Null Hypothesis (H0):</strong> The manufacturer&rsquo;s claim is true; the mean lifespan of their product is 5000 hours (\(μ = 5000\)).</li>
+<li><strong>Alternative Hypothesis (H1):</strong> The manufacturer&rsquo;s claim is not true; the mean lifespan of their product is not 5000 hours (\(μ ≠ 5000\)).</li>
+<li>Standard error of the mean (SEM):
+<ul>
+<li>\(SEM = \frac{σ}{\sqrt{n}} = \frac{200}{\sqrt{50}} \approx 28.28\)</li>
+</ul>
+</li>
+<li>Z-score:
+<ul>
+<li>\(Z = \frac{\bar{X} - μ}{SEM} = \frac{4900 - 5000}{28.28} \approx -3.54\)</li>
+</ul>
+</li>
+<li>Critical Z-value:
+<ul>
+<li>For a significance level of 0.05 (two-tailed), critical Z-value is approximately ±1.96.</li>
+</ul>
+</li>
+<li>Conclusion:
+<ul>
+<li>Since -3.54 is less than -1.96 (in absolute value), we reject the null hypothesis. There is sufficient evidence to conclude that the mean lifespan is not 5000 hours, as claimed by the manufacturer.</li>
+</ul>
+</li>
 </ul>
 
 

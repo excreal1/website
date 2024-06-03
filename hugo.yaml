@@ -2,3 +2,20 @@ baseURL: https://website-1lt.pages.dev/
 languageCode: en-us
 title: Excreal
 theme: ["PaperMod"]
+
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+        enable: true
+params:
+  math: true
