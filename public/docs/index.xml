@@ -13,8 +13,9 @@
       <link>http://localhost:1313/docs/examples/</link>
       <pubDate>Mon, 03 Jun 2024 04:15:50 +0000</pubDate>
       <guid>http://localhost:1313/docs/examples/</guid>
-      <description>What’s Included: Stats Cheatsheet The free cheat sheet covers key concepts and terminology for both descriptive and inferential statistics. This includes:
-Types of data (categorical and numerical) Type of frequency distributions Descriptive statistics such as the mean, median and mode Inferential statistics such as t-tests, chi-square and correlation Probability, effect size and significance levels In a nutshell, the stats cheatsheet is a great starting point for any student new to the often intimidating world of statistics and quantitative analysis.</description>
+      <description>Question: A manufacturer claims that the mean lifespan of their product is 5000 hours. A sample of 50 products yielded a mean lifespan of 4900 hours with a standard deviation of 200 hours. At a significance level of 0.05, can we reject the manufacturer&amp;rsquo;s claim?
+Solution:
+Null Hypothesis (H0): μ = 5000 Alternative Hypothesis (H1): μ ≠ 5000 Standard error of the mean (SEM) = σ / √n = 200 / √50 ≈ 28.</description>
     </item>
     <item>
       <title>Cheatsheat</title>
