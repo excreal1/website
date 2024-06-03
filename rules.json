@@ -1,0 +1,9 @@
+[
+    {
+      "pattern": "/google",
+      "handler": "redirect",
+      "destination": "https://www.google.com",
+      "statusCode": 301
+    }
+  ]
+  

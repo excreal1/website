@@ -54,7 +54,7 @@ A probability distribution provides the probabilities of all possible outcomes o
       <link>http://localhost:1313/docs/math/</link>
       <pubDate>Wed, 24 Jan 2024 18:09:49 -0800</pubDate>
       <guid>http://localhost:1313/docs/math/</guid>
-      <description>This is an inline \(a^*=x-b^*\) equation.
+      <description>This is an Inline \(a^*=x-b^*\) equation.
 These are block equations:
 \[a^*=x-b^*\] \[ a^*=x-b^* \] \[ a^*=x-b^* \] These are block equations using alternate delimiters:
 $$a^*=x-b^*$$ $$ a^*=x-b^* $$ $$ a^*=x-b^* $$ A \$5 bill saved is a \$5 bill earned.

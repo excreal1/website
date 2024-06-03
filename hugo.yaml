@@ -19,3 +19,6 @@ markup:
         enable: true
 params:
   math: true
+
+server:
+  staticDir: "static"
