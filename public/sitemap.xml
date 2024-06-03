@@ -3,10 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/docs/</loc>
-    <lastmod>2024-06-02T21:13:40+00:00</lastmod>
+    <lastmod>2024-06-03T03:49:29+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2024-06-02T21:13:40+00:00</lastmod>
+    <lastmod>2024-06-03T03:49:29+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/importantformulas/</loc>
+    <lastmod>2024-06-03T03:49:29+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/docs/probablititydistributions/</loc>
+    <lastmod>2024-06-03T03:39:54+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/docs/test/</loc>
     <lastmod>2024-06-02T21:13:40+00:00</lastmod>

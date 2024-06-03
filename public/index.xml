@@ -1,20 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Excreal</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Excreal</description>
     <generator>Hugo -- 0.126.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Jun 2024 21:13:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2024 03:49:29 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Important Formulas Inferential Statistics</title>
+      <link>http://localhost:1313/docs/importantformulas/</link>
+      <pubDate>Mon, 03 Jun 2024 03:49:29 +0000</pubDate>
+      <guid>http://localhost:1313/docs/importantformulas/</guid>
+      <description>Important Formulas and Examples in Inferential Statistics Population Mean (μ) Formula:
+The population mean, denoted by μ, is the average of all values in a population. Formula: μ = ΣX / N, where ΣX represents the sum of all values in the population, and N is the population size. Example: Let&amp;rsquo;s say we have a population of exam scores: {85, 90, 92, 88, 95}. The population mean is calculated as: μ = (85 + 90 + 92 + 88 + 95) / 5 = 90</description>
+    </item>
+    <item>
+      <title>Probablitity Distributions</title>
+      <link>http://localhost:1313/docs/probablititydistributions/</link>
+      <pubDate>Mon, 03 Jun 2024 03:39:54 +0000</pubDate>
+      <guid>http://localhost:1313/docs/probablititydistributions/</guid>
+      <description>Probability Distributions Random Variable:
+A random variable is a function that maps outcomes of a random process to numerical values. It represents the possible results of an experiment, where each result has a probability of occurring. Random variables can be categorized as either discrete or continuous, depending on whether their possible values are countable or uncountable. Probability Distribution:
+A probability distribution provides the probabilities of all possible outcomes of a random variable.</description>
+    </item>
     <item>
       <title>Test</title>
       <link>http://localhost:1313/docs/test/</link>
       <pubDate>Sun, 02 Jun 2024 21:13:40 +0000</pubDate>
       <guid>http://localhost:1313/docs/test/</guid>
-      <description>One Two Three Four Five Six This is a Test text
-sudo pacman -S github-cli kitty sudo pacman -S github-cli kitty sudo pacman -S github-cli kitty </description>
+      <description>Inferential Statistics Start with: Probability Distributions: Probability distributions describe the likelihood of different outcomes in a random experiment. Common distributions include the normal distribution (bell-shaped curve), binomial distribution (for binary outcomes), and t-distribution (similar to the normal distribution but used for smaller sample sizes). Sampling Methods: Sampling methods involve selecting a subset of individuals or items from a larger population. Random sampling ensures each member of the population has an equal chance of being selected.</description>
     </item>
   </channel>
 </rss>

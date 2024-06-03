@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Probablitity Distributions | Excreal</title>
+<meta name="keywords" content="">
+<meta name="description" content="Probability Distributions Random Variable:
+A random variable is a function that maps outcomes of a random process to numerical values. It represents the possible results of an experiment, where each result has a probability of occurring. Random variables can be categorized as either discrete or continuous, depending on whether their possible values are countable or uncountable. Probability Distribution:
+A probability distribution provides the probabilities of all possible outcomes of a random variable.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/docs/probablititydistributions/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/docs/probablititydistributions/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Excreal (Alt + H)">Excreal</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Probablitity Distributions
+    </h1>
+    <div class="post-meta"><span title='2024-06-03 03:39:54 +0000 UTC'>June 3, 2024</span>
+
+</div>
+  </header> 
+  <div class="post-content"><h3 id="probability-distributions">Probability Distributions<a hidden class="anchor" aria-hidden="true" href="#probability-distributions">#</a></h3>
+<ol>
+<li>
+<p><strong>Random Variable</strong>:</p>
+<ul>
+<li>A random variable is a function that maps outcomes of a random process to numerical values. It represents the possible results of an experiment, where each result has a probability of occurring.</li>
+<li>Random variables can be categorized as either discrete or continuous, depending on whether their possible values are countable or uncountable.</li>
+</ul>
+</li>
+<li>
+<p><strong>Probability Distribution</strong>:</p>
+<ul>
+<li>A probability distribution provides the probabilities of all possible outcomes of a random variable. It describes the likelihood of each outcome occurring.</li>
+<li>In a discrete probability distribution, the probabilities are associated with individual values of the random variable. In a continuous probability distribution, probabilities are associated with intervals of values.</li>
+<li>Probability distributions can be represented using probability mass functions (for discrete distributions) or probability density functions (for continuous distributions).</li>
+</ul>
+</li>
+<li>
+<p><strong>Types of Probability Distributions</strong>:</p>
+<ul>
+<li><strong>Discrete Probability Distribution</strong>:
+<ul>
+<li>Deals with random variables that have a finite or countably infinite number of possible outcomes.</li>
+<li>Examples include the <strong>binomial distribution</strong>, which describes the number of successes in a fixed number of independent Bernoulli trials, and the <strong>Poisson distribution</strong>, which models the number of events occurring in a fixed interval of time or space.</li>
+</ul>
+</li>
+<li><strong>Continuous Probability Distribution</strong>:
+<ul>
+<li>Deals with random variables that can take any value within a certain range.</li>
+<li>Examples include the <strong>normal distribution</strong>, which describes continuous phenomena with a symmetric, bell-shaped curve, and the <strong>uniform distribution</strong>, where all intervals of the same length have the same probability.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Normal Distribution</strong>:</p>
+<ul>
+<li>The normal distribution is characterized by its bell-shaped curve, with the majority of values clustered around the mean.</li>
+<li>It is fully described by two parameters: the mean (μ) and the standard deviation (σ).</li>
+<li>Many natural processes, such as heights, weights, and test scores, approximate a normal distribution due to the central limit theorem.</li>
+</ul>
+</li>
+<li>
+<p><strong>Standard Normal Distribution</strong>:</p>
+<ul>
+<li>The standard normal distribution is a special case of the normal distribution with a mean of 0 and a standard deviation of 1.</li>
+<li>Standardizing a normal distribution involves transforming it into a standard normal distribution using the formula: $Z = \frac{X - \mu}{\sigma}$, where $X$ is the value from the original distribution, $\mu$ is the mean of the original distribution, $\sigma$ is the standard deviation of the original distribution, and $Z$ is the standardized value.</li>
+</ul>
+</li>
+<li>
+<p><strong>Central Limit Theorem</strong>:</p>
+<ul>
+<li>The Central Limit Theorem states that the sampling distribution of the sample mean approaches a normal distribution as the sample size increases, regardless of the shape of the population distribution.</li>
+<li>This theorem is crucial for many inferential statistical methods, as it allows us to make inferences about population parameters based on sample statistics.</li>
+</ul>
+</li>
+<li>
+<p><strong>Applications</strong>:</p>
+<ul>
+<li>Probability distributions are used in various fields, including finance, engineering, biology, and social sciences, to model and analyze random phenomena.</li>
+<li>They form the basis for statistical inference, hypothesis testing, and estimation.</li>
+</ul>
+</li>
+</ol>
+<p>Understanding probability distributions lays the groundwork for many inferential statistical techniques. It&rsquo;s essential to grasp the properties and characteristics of different distributions to effectively analyze and interpret data in real-world scenarios.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="http://localhost:1313/">Excreal</a></span> · 
+
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
