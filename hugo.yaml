@@ -20,5 +20,3 @@ markup:
 params:
   math: true
 
-server:
-  staticDir: "static"
