@@ -32,6 +32,16 @@ Collection of scripts
 
 Then Download the  [Foxy Proxy Browser Extension](https://chromewebstore.google.com/detail/foxyproxy/gcknhkkoolaabfmlnjonogaaifnjlfnp?hl=en)  
 
+Open the extension settings and add the following configuration
+```
+Proxy Type : SOCKS5
+IP/HOSTNAME: 127.0.0.1
+PORT       : 8080
+
+username and password left blank
+ 
+```
+
 # Upload file to GoFIle
 
 #### Usage :
