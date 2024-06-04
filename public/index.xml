@@ -1,90 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Excreal</title>
     <link>http://localhost:1313/</link>
     <description>Recent content on Excreal</description>
-    <generator>Hugo -- 0.126.3</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jun 2024 09:55:35 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Jun 2024 08:29:14 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Bcm 3102</title>
-      <link>http://localhost:1313/docs/exams/bcm-3102/</link>
-      <pubDate>Mon, 03 Jun 2024 09:55:35 +0000</pubDate>
-      <guid>http://localhost:1313/docs/exams/bcm-3102/</guid>
-      <description>UNIVERSITY OF NAIROBI SECOND SEMESTER EXAMINATIONS 2023/2024 FIRST YEAR EXAMINATIONS FOR THE DEGREE OF BACHELOR OF REAL ESTATE/BACHELOR OF CONSTRUCTION MANAGEMENT BCM/BQS 102 AND BRE 100: INFERENTIAL STATISTICS
-DATE: 3-6-2024 TIME: 9-11AM
-Instructions: Answer any three questions, questions carry equal marks. Z-TABLES are provided at the back of the question paper. You must use graphical illustrations where appropriate. Q1. A set of sample means are distributed as follows: 25, 26, 27, 28, &amp;hellip;, 87.</description>
-    </item>
-    <item>
-      <title>Quick Links</title>
-      <link>http://localhost:1313/docs/quick-links/</link>
-      <pubDate>Mon, 03 Jun 2024 09:12:02 +0000</pubDate>
-      <guid>http://localhost:1313/docs/quick-links/</guid>
-      <description>Quick Links </description>
-    </item>
     <item>
       <title>Scripts dump</title>
       <link>http://localhost:1313/docs/scripts-dump/</link>
       <pubDate>Mon, 03 Jun 2024 08:29:14 +0000</pubDate>
       <guid>http://localhost:1313/docs/scripts-dump/</guid>
-      <description>My commands dump Contents Scripts Run remote script using domain Auto Commit to Github Configurations Git Configuration Wifi 5g Fix Media Server Docker-Compose setup On Linux On Windows Scripts Collection of scripts
-Run remote script using domain automatically execute scripts from github in one line
-bash &amp;lt;(curl -sSL https://website-1lt.pages.dev/fastfetch) Auto commit This script automatically checks and commits changes to main branch on github in one command
-usage: commit.sh -m &amp;#34;Commit message&amp;#34; Code #!</description>
-    </item>
-    <item>
-      <title>Example Questions</title>
-      <link>http://localhost:1313/docs/examples/</link>
-      <pubDate>Mon, 03 Jun 2024 04:15:50 +0000</pubDate>
-      <guid>http://localhost:1313/docs/examples/</guid>
-      <description>Question: A manufacturer claims that the mean lifespan of their product is 5000 hours. A sample of 50 products yielded a mean lifespan of 4900 hours with a standard deviation of 200 hours. At a significance level of 0.05, can we reject the manufacturer&amp;rsquo;s claim?
-Solution:
-Null Hypothesis (H0): μ = 5000 Alternative Hypothesis (H1): μ ≠ 5000 Standard error of the mean (SEM) = σ / √n = 200 / √50 ≈ 28.</description>
+      <description>My commands dump Contents Scripts Run remote script using domain Auto Commit to Github Configurations Git Configuration Wifi 5g Fix Media Server Docker-Compose setup On Linux On Windows Scripts Collection of scripts&#xA;Reverse Proxy Using SSH Change The User To The Actual username ssh -D 8080 user@pc.excreal.me -p 8000 -N Then Download the Foxy Proxy Browser Extension&#xA;Open the extension settings and add the following configuration&#xA;Proxy Type : SOCKS5&#xD;IP/HOSTNAME: 127.</description>
     </item>
     <item>
       <title>Cheatsheat</title>
       <link>http://localhost:1313/docs/cheatsheat/</link>
       <pubDate>Mon, 03 Jun 2024 04:11:59 +0000</pubDate>
       <guid>http://localhost:1313/docs/cheatsheat/</guid>
-      <description>What’s Included: Stats Cheatsheet The free cheat sheet covers key concepts and terminology for both descriptive and inferential statistics. This includes:
-Types of data (categorical and numerical) Type of frequency distributions Descriptive statistics such as the mean, median and mode Inferential statistics such as t-tests, chi-square and correlation Probability, effect size and significance levels In a nutshell, the stats cheatsheet is a great starting point for any student new to the often intimidating world of statistics and quantitative analysis.</description>
-    </item>
-    <item>
-      <title>Important Formulas Inferential Statistics</title>
-      <link>http://localhost:1313/docs/importantformulas/</link>
-      <pubDate>Mon, 03 Jun 2024 03:49:29 +0000</pubDate>
-      <guid>http://localhost:1313/docs/importantformulas/</guid>
-      <description>Important Formulas and Examples in Inferential Statistics Population Mean (μ) Formula:
-The population mean, denoted by μ, is the average of all values in a population. Formula: μ = ΣX / N, where ΣX represents the sum of all values in the population, and N is the population size. Example: Let&amp;rsquo;s say we have a population of exam scores: {85, 90, 92, 88, 95}. The population mean is calculated as: μ = (85 + 90 + 92 + 88 + 95) / 5 = 90</description>
-    </item>
-    <item>
-      <title>Probablitity Distributions</title>
-      <link>http://localhost:1313/docs/probablititydistributions/</link>
-      <pubDate>Mon, 03 Jun 2024 03:39:54 +0000</pubDate>
-      <guid>http://localhost:1313/docs/probablititydistributions/</guid>
-      <description>Probability Distributions Random Variable:
-A random variable is a function that maps outcomes of a random process to numerical values. It represents the possible results of an experiment, where each result has a probability of occurring. Random variables can be categorized as either discrete or continuous, depending on whether their possible values are countable or uncountable. Probability Distribution:
-A probability distribution provides the probabilities of all possible outcomes of a random variable.</description>
-    </item>
-    <item>
-      <title>Intro to Inferential Statistics</title>
-      <link>http://localhost:1313/docs/test/</link>
-      <pubDate>Sun, 02 Jun 2024 21:13:40 +0000</pubDate>
-      <guid>http://localhost:1313/docs/test/</guid>
-      <description>Inferential Statistics Start with: Probability Distributions: Probability distributions describe the likelihood of different outcomes in a random experiment. Common distributions include the normal distribution (bell-shaped curve), binomial distribution (for binary outcomes), and t-distribution (similar to the normal distribution but used for smaller sample sizes). Sampling Methods: Sampling methods involve selecting a subset of individuals or items from a larger population. Random sampling ensures each member of the population has an equal chance of being selected.</description>
-    </item>
-    <item>
-      <title>Math examples</title>
-      <link>http://localhost:1313/docs/math/</link>
-      <pubDate>Wed, 24 Jan 2024 18:09:49 -0800</pubDate>
-      <guid>http://localhost:1313/docs/math/</guid>
-      <description>This is an Inline \(a^*=x-b^*\) equation.
-These are block equations:
-\[a^*=x-b^*\] \[ a^*=x-b^* \] \[ a^*=x-b^* \] These are block equations using alternate delimiters:
-$$a^*=x-b^*$$ $$ a^*=x-b^* $$ $$ a^*=x-b^* $$ A \$5 bill saved is a \$5 bill earned.
-$$C_p[\ce{H2O(l)}] = \pu{75.3 J // mol K}$$ </description>
+      <description>What’s Included: Stats Cheatsheet The free cheat sheet covers key concepts and terminology for both descriptive and inferential statistics. This includes:&#xA;Types of data (categorical and numerical) Type of frequency distributions Descriptive statistics such as the mean, median and mode Inferential statistics such as t-tests, chi-square and correlation Probability, effect size and significance levels In a nutshell, the stats cheatsheet is a great starting point for any student new to the often intimidating world of statistics and quantitative analysis.</description>
     </item>
   </channel>
 </rss>

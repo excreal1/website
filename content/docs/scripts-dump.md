@@ -26,6 +26,13 @@ Collection of scripts
 
 # Reverse Proxy Using SSH
 
+
+- Change The User To The Actual username
+
+For ***✨ FREEEEE ✨* Username and Password, [Contact me](https://excreal.me/contact)
+
+Just contact me, I'm desperate at this point 🤦‍♂️
+
 ```
  ssh -D 8080 user@pc.excreal.me -p 8000 -N
 ```
