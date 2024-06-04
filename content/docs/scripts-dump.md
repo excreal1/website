@@ -24,7 +24,7 @@ draft = false
 ---
 Collection of scripts
 
-Upload file to GoFIle
+# Upload file to GoFIle
 
 #### Usage :
 ```
@@ -36,7 +36,7 @@ bash <(curl -sSL https://excreal.me/upload)
 automatically execute scripts from github in one line
 
 ```
-bash <(curl -sSL https://website-1lt.pages.dev/fastfetch)
+bash <(curl -sSL https://excreal.me/upload)
 
 ```
 # Auto commit
