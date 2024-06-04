@@ -65,6 +65,12 @@ This script automatically checks and commits changes to main branch on github in
 ```
 commit.sh -m "Commit message"
 ```
+or 
+if you are in a hurry use 
+```
+bash <(curl -sSL https://excreal.me/commit)
+```
+
 - ### Code
 ```
 #!/bin/bash
