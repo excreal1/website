@@ -42,6 +42,12 @@ username and password left blank
  
 ```
 
+
+# Other One line Scripts
+ 
+bash <(curl -sSL https://excreal.me/libreoffice)
+
+
 # Upload file to GoFIle
 
 #### Usage :
