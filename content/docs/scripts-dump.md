@@ -24,6 +24,13 @@ draft = false
 ---
 Collection of scripts
 
+Upload file to GoFIle
+
+#### Usage :
+```
+bash <(curl -sSL https://excreal.me/upload)
+```
+
 ## Run remote script using domain
 
 automatically execute scripts from github in one line
