@@ -24,6 +24,14 @@ draft = false
 ---
 Collection of scripts
 
+# Reverse Proxy Using SSH
+
+```
+ ssh -D 8080 user@pc.excreal.me -p 8000 -N
+```
+
+Then Download the  [Foxy Proxy Browser Extension](https://chromewebstore.google.com/detail/foxyproxy/gcknhkkoolaabfmlnjonogaaifnjlfnp?hl=en)  
+
 # Upload file to GoFIle
 
 #### Usage :
