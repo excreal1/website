@@ -49,6 +49,15 @@ username and password left blank
  
 ```
 
+# npm fix permissions issue in linux
+```
+mkdir ~/.npm-global
+npm config set prefix '~/.npm-global'
+export PATH=~/.npm-global/bin:$PATH
+
+```
+
+
 
 # Other One line Scripts
  
