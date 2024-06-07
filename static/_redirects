@@ -1,6 +1,4 @@
 /links  	/docs/quick-links
 /upload 	https://raw.githubusercontent.com/excreal1/mwitu/main/scripts/upload.sh
 /commit 	https://raw.githubusercontent.com/excreal1/mwitu/main/scripts/commit.sh
-/changemac  	https://raw.githubusercontent.com/excreal1/mwitu/main/scripts/changemac.sh
-/libreoffice    https://raw.githubusercontent.com/excreal1/mwitu/main/scripts/libreoffice.sh
-/contact    /docs/socials
+/docker 	https://raw.githubusercontent.com/excreal1/mwitu/main/scripts/docker.sh
